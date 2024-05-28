@@ -1,6 +1,10 @@
+if DEF(FAITHFUL)	
 	db  91, 134,  95,  80, 100, 100 ; 600 BST
 	;   hp  atk  def  spe  sat  sdf
-
+else
+	db  90, 141,  94,  85, 100, 90 ; 600 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 	db DRAGON, FLYING ; type
 	db 45 ; catch rate
 	db 218 ; base exp

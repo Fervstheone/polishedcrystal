@@ -703,5 +703,11 @@ ENDM
 	newgroup                                                     ; 37
 	map_const ECRUTEAK_SHRINE_OUTSIDE,                     8, 11 ;  1
 	map_const ECRUTEAK_SHRINE_INSIDE,                      6,  6 ;  2
+	
+	newgroup													 ; 38
+	map_const CRUEL_CHAMBER,                               7,  6 ;  1
+	map_const STRONG_CHAMBER,                              7,  6 ;  2
+	map_const WICKED_CHAMBER,                              7,  6 ;  3
+	map_const VIOLET_HAUNTED_HOUSE,                        5,  4 ;  4
 
-DEF NUM_MAP_GROUPS EQU const_value ; 37
+DEF NUM_MAP_GROUPS EQU const_value ; 38

@@ -428,6 +428,7 @@ DEF CRYS EQU __trainer_class__
 	const FOOTE
 	const DAVE
 	const KOUTA
+	const HERB
 
 	trainerclass LASS ; 32
 	const DANA1
@@ -982,7 +983,7 @@ DEF CRYS EQU __trainer_class__
 	const LOIS
 	const FRAN
 	const LOLA
-	const KATE
+	const KIMI
 	const IRENE
 	const KELLY
 	const JOYCE
@@ -1121,6 +1122,20 @@ DEF CRYS EQU __trainer_class__
 	trainerclass LAWRENCE ; 98
 
 	trainerclass REI ; 99
+
+	trainerclass KATE
+	
+	trainerclass ASH
+	
+	trainerclass TRIP
+	
+	trainerclass FEDMAE
+	
+	trainerclass CUTE
+	
+	trainerclass ROCKET
+	
+	trainerclass UNKNOWN
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 

@@ -2,15 +2,17 @@ if DEF(FAITHFUL)
 	db  60,  80, 110,  45,  50,  80 ; 425 BST
 	;   hp  atk  def  spe  sat  sdf
 else
-	db  60,  80, 110,  70,  50,  80 ; 450 BST
+	db  80,  90, 120,  70,  50,  90 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 endc
 
+if DEF(FAITHFUL)
 	db GROUND, GROUND ; type
 	db 75 ; catch rate
-if DEF(FAITHFUL)
 	db 124 ; base exp
 else
+	db GROUND, GHOST ; type
+	db 75 ; catch rate
 	db 140 ; base exp
 endc
 	db NO_ITEM, THICK_CLUB ; held items

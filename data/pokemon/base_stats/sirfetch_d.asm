@@ -1,7 +1,16 @@
+if DEF(FAITHFUL)
 	db  62, 135,  95,  65,  68,  82 ; 507 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  72, 135,  95,  75,  68,  85 ; 530 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
-	db FIGHTING, FIGHTING ; type
+if DEF(FAITHFUL)
+    db FIGHTING, FIGHTING ; type
+else
+	db FIGHTING, FLYING ; type
+endc
 	db 45 ; catch rate
 	db 178 ; base exp
 	db NO_ITEM, LEEK ; held items

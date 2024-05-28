@@ -30,6 +30,12 @@ BossTrainers:
 	db WALKER
 	db LAWRENCE
 	db REI
+	db KATE
+	db ASH
+	db TRIP
+	db FEDMAE
+	db ROCKET
+	db UNKNOWN
 JohtoGymLeaders:
 	db FALKNER
 	db WHITNEY

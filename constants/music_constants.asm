@@ -194,6 +194,20 @@
 	const MUSIC_GYM_LEADER_BATTLE_PRISM        ; be ; unused
 	const MUSIC_PALETTE_BATTLE_PRISM           ; bf ; unused
 	const MUSIC_UNDERTALE_MEGALOVANIA          ; c0 ; unused
+	const MUSIC_RBY_TITLESCREEN                ; c1 ; unused
+	const MUSIC_RBY_WILDBATTLE                 ; c2 ; unused
+	const MUSIC_RBY_TRAINERBATTLE              ; c3 ; unused
+	const MUSIC_RBY_GYMLEADERBATTLE            ; c4 ; unused
+	const MUSIC_RBY_FINALBATTLE                ; c5 ; unused
+	const MUSIC_RBY_MEETRIVAL                  ; c6 ; unused
+	const MUSIC_RBY_FAREWELLRIVAL              ; c7 ; unused
+	const MUSIC_FRLG_WILDBATTLE                ; c8 ; unused
+	const MUSIC_FRLG_GYMLEADER                 ; c9 ; unused
+	const MUSIC_FRLG_ELITEFOUR                 ; ca ; unused
+	const MUSIC_DPPT_WILDBATTLE                ; cb ; unused
+	const MUSIC_DPPT_FRONTIERBRAIN             ; cc ; unused
+	const MUSIC_SM_GIOVANNIBATTLE              ; cd ; unused
+	const MUSIC_HGSS_ICEPATH                   ; ce ; unused
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/special_map_music.asm)

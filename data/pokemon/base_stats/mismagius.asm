@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db  60,  60,  60, 105, 105, 105 ; 495 BST
 	;   hp  atk  def  spe  sat  sdf
 else
-	db  60,  60,  60, 110, 110, 110 ; 510 BST
+	db  60,  60,  60, 110, 120, 120 ; 530 BST
 	;   hp  atk  def  spe  sat  sdf
 endc
 

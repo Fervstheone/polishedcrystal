@@ -1,7 +1,16 @@
+if DEF(FAITHFUL)
 	db 100,  75, 115,  85,  90, 115 ; 580 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db 120,  75, 135,  85,  90, 135 ; 640 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
+if DEF(FAITHFUL)
 	db WATER, WATER ; type
+else
+	db WATER, ICE ; type
+endc
 	db 3 ; catch rate
 	db 215 ; base exp
 	db ALWAYS_ITEM_2, MYSTIC_WATER ; held items

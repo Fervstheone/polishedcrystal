@@ -1,6 +1,10 @@
+if DEF(FAITHFUL)
 	db  75,  90,  50,  95, 110,  80 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
-
+else
+	db  75,  90,  55, 105, 120,  90 ; 535 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 	db DARK, FIRE ; type
 	db 45 ; catch rate
 	db 204 ; base exp

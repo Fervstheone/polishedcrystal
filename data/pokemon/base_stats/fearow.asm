@@ -2,15 +2,17 @@ if DEF(FAITHFUL)
 	db  65,  90,  65, 100,  61,  61 ; 442 BST
 	;   hp  atk  def  spe  sat  sdf
 else
-	db  75,  99,  65, 101,  66,  66 ; 472 BST
+	db  75,  99,  75, 101,  64,  76 ; 490 BST
 	;   hp  atk  def  spe  sat  sdf
 endc
 
+if DEF(FAITHFUL)
 	db NORMAL, FLYING ; type
 	db 90 ; catch rate
-if DEF(FAITHFUL)
 	db 162 ; base exp
 else
+	db DARK, FLYING ; type
+	db 90 ; catch rate
 	db 169 ; base exp
 endc
 	db NO_ITEM, SHARP_BEAK ; held items

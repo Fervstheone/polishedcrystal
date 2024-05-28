@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)	
 	db 125, 100,  80,  55,  85,  75 ; 520 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db 115, 110,  80,  75,  75,  75 ; 530 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 if DEF(FAITHFUL)
 	db NORMAL, NORMAL ; type

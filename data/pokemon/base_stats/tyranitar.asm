@@ -1,7 +1,16 @@
+if DEF(FAITHFUL)
 	db 100, 134, 110,  61,  95, 100 ; 600 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db 100, 141, 110,  64,  85, 100 ; 600 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
+if DEF(FAITHFUL)
 	db ROCK, DARK ; type
+else
+	db ROCK, DRAGON ; type
+endc
 	db 45 ; catch rate
 	db 218 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

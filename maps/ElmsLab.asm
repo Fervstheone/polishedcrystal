@@ -1091,7 +1091,10 @@ ElmDirectionsText2:
 	done
 
 ElmDirectionsText3:
-	text "<PLAYER>, I'm"
+	text "Also, Lala says"
+	line "hello as well!"
+	
+	para "<PLAYER>, We're"
 	line "counting on you!"
 	done
 
@@ -1436,6 +1439,18 @@ ElmGiveTicketText2:
 	para "A champ like you"
 	line "should do well"
 	cont "competing there!"
+	
+	para "And before I"
+	line "forget, there"
+	cont "also seem to be"
+	cont "sightings of new"
+	
+    para "and extremely rare"
+	line "#mon in Johto."
+	
+	para "Perhaps you can"
+	line "find and catch"
+	cont "them, <PLAYER>."
 	done
 
 LyraAnnouncesGymChallengeText:

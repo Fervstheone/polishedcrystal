@@ -1,7 +1,16 @@
+if DEF(FAITHFUL)	
 	db  90, 120,  75,  45,  60,  60 ; 450 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db 100, 130,  85,  45,  60,  80 ; 500 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
+if DEF(FAITHFUL)
 	db FAIRY, FAIRY ; type
+else
+	db FAIRY, DARK  ; type
+endc
 	db 75 ; catch rate
 	db 178 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

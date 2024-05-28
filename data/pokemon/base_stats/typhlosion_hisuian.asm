@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)
 	db  73,  84,  78,  95, 119,  85 ; 534 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  80,  80,  75,  95, 135,  85 ; 534 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 	db FIRE, GHOST ; type
 	db 45 ; catch rate
@@ -13,7 +18,7 @@ else
 	abilities_for TYPHLOSION_HISUIAN, BLAZE, FLAME_BODY, FLASH_FIRE
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	dn EGG_NONE, EGG_NONE ; egg groups
 
 	ev_yield 3 SAt
 

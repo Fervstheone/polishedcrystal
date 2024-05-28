@@ -1,9 +1,20 @@
+if DEF(FAITHFUL)	
 	db  95, 125,  79,  81,  60, 100 ; 540 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  95, 125,  89,  91,  60, 100 ; 560 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
+if DEF(FAITHFUL)
 	db WATER, FLYING ; type
 	db 45 ; catch rate
 	db 214 ; base exp
+else
+	db WATER, DRAGON ; type
+	db 15 ; catch rate
+	db 234 ; base exp
+endc
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 

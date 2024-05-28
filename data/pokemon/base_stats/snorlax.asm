@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)	
 	db 160, 110,  65,  30,  65, 110 ; 540 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db 160, 110,  75,  30,  65, 110 ; 550 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 	db NORMAL, NORMAL ; type
 	db 25 ; catch rate

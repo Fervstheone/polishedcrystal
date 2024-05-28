@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)
 	db  65, 100,  70, 105,  80,  80 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  75, 110,  70, 125,  80,  80 ; 540 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 if DEF(FAITHFUL)
 	db FIRE, FIRE ; type

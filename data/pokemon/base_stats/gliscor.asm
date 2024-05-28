@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)	
 	db  75,  95, 125,  95,  45,  75 ; 510 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  85,  95, 135,  95,  45,  85 ; 540 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 	db GROUND, FLYING ; type
 	db 30 ; catch rate

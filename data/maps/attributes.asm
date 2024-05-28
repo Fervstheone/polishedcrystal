@@ -924,3 +924,7 @@ ENDM
 	map_attributes IvysHouse, IVYS_HOUSE, $0, 0
 	map_attributes ValenciaHouse, VALENCIA_HOUSE, $0, 0
 	map_attributes ValenciaPort, VALENCIA_PORT, $0, 0
+	map_attributes CruelChamber, CRUEL_CHAMBER, $9, 0
+	map_attributes StrongChamber, STRONG_CHAMBER, $9, 0
+	map_attributes WickedChamber, WICKED_CHAMBER, $9, 0
+	map_attributes VioletHauntedHouse, VIOLET_HAUNTED_HOUSE, $0, 0

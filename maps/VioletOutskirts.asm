@@ -6,10 +6,12 @@ VioletOutskirts_MapScriptHeader:
 
 	def_warp_events
 	warp_event 10, 12, HIDDEN_TREE_GROTTO, 1
+	warp_event 21,  9, VIOLET_HAUNTED_HOUSE, 1
 
 	def_coord_events
 
 	def_bg_events
+	bg_event 19,  9, BGEVENT_JUMPTEXT, VioletOutskirtsSignText
 	bg_event 10, 11, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_VIOLET_OUTSKIRTS
 	bg_event 11, 11, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_VIOLET_OUTSKIRTS
 
@@ -19,6 +21,7 @@ VioletOutskirts_MapScriptHeader:
 	fruittree_event 17, -2, FRUITTREE_ROUTE_42_1, PNK_APRICORN, PAL_NPC_PINK
 	fruittree_event 18, -2, FRUITTREE_ROUTE_42_2, GRN_APRICORN, PAL_NPC_GREEN
 	fruittree_event 19, -2, FRUITTREE_ROUTE_42_3, YLW_APRICORN, PAL_NPC_YELLOW
+	itemball_event 6, 1, ULTRA_BALL, 1, EVENT_VIOLET_OUTSKIRTS_ULTRA_BALL
 	itemball_event 14, 24, PP_UP, 1, EVENT_VIOLET_CITY_PP_UP
 
 VioletOutskirtsAvalanche:
@@ -28,3 +31,8 @@ VioletOutskirtsAvalanche:
 	changeblock 6, -2, $0a
 .end
 	endcallback
+
+VioletOutskirtsSignText:
+	text "      DANGER      "
+	line "    Condemned!    "
+	done

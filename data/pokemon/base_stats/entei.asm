@@ -1,7 +1,16 @@
+if DEF(FAITHFUL)	
 	db 115, 115,  85, 100,  90,  75 ; 580 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db 125, 135, 105, 100,  90,  85 ; 640 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
+if DEF(FAITHFUL)
 	db FIRE, FIRE ; type
+else
+	db FIRE, GROUND ; type
+endc
 	db 3 ; catch rate
 	db 217 ; base exp
 	db ALWAYS_ITEM_2, CHARCOAL ; held items

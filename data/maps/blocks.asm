@@ -1920,4 +1920,20 @@ SECTION "BattleFactoryBattleRoom_BlockData", ROMX
 BattleFactoryBattleRoom_BlockData:
 	INCBIN "maps/BattleFactoryBattleRoom.ablk.lz"
 
+SECTION "CruelChamber_BlockData", ROMX
+CruelChamber_BlockData:
+	INCBIN "maps/CruelChamber.ablk.lz"
+
+SECTION "StrongChamber_BlockData", ROMX
+StrongChamber_BlockData:
+	INCBIN "maps/StrongChamber.ablk.lz"
+
+SECTION "WickedChamber_BlockData", ROMX
+WickedChamber_BlockData:
+	INCBIN "maps/WickedChamber.ablk.lz"
+	
+SECTION "VioletHauntedHouse_BlockData", ROMX
+VioletHauntedHouse_BlockData:
+	INCBIN "maps/VioletHauntedHouse.ablk.lz"
+	
 ENDSECTION

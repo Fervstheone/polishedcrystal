@@ -1,6 +1,10 @@
+if DEF(FAITHFUL)	
 	db  90,  85,  85,  95, 125, 100 ; 580 BST
 	;   hp  atk  def  spe  sat  sdf
-
+else
+	db  90,  85,  95,  100, 150, 120 ; 640 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 	db PSYCHIC, FLYING ; type
 	db 3 ; catch rate
 	db 215 ; base exp

@@ -6,11 +6,13 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
+if DEF(FAITHFUL)
 	db GRASS, POISON ; type
 	db 45 ; catch rate
-if DEF(FAITHFUL)
 	db 191 ; base exp
 else
+	db GRASS, DARK ; type
+	db 45 ; catch rate
 	db 199 ; base exp
 endc
 	db ALWAYS_ITEM_2, BIG_ROOT ; held items

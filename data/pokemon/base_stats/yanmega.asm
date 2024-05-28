@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)	
 	db  86,  76,  86,  95, 116,  56 ; 515 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  86,  76,  96, 105, 116,  56 ; 535 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 if DEF(FAITHFUL)
 	db BUG, FLYING ; type

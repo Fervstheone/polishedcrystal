@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)	
 	db  80,  82,  83,  80, 100, 100 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  90,  82,  83,  80, 105, 110 ; 550 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 	db GRASS, POISON ; type
 	db 45 ; catch rate

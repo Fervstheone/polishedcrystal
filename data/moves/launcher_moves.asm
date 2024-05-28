@@ -3,4 +3,5 @@ LauncherMoves:
 	db DARK_PULSE
 	db DRAGON_PULSE
 	db WATER_PULSE
+	db HYDRO_PUMP
 	db -1

@@ -15,8 +15,11 @@ endc
 	db 199 ; base exp
 	db PERSIM_BERRY, ELECTIRIZER ; held items
 	dn GENDER_F25, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
-
+if DEF(FAITHFUL)
 	abilities_for ELECTIVIRE, MOTOR_DRIVE, MOTOR_DRIVE, VITAL_SPIRIT
+else
+	abilities_for ELECTIVIRE, MOTOR_DRIVE, IRON_FIST, VITAL_SPIRIT
+endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 

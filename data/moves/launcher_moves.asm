@@ -4,4 +4,7 @@ LauncherMoves:
 	db DRAGON_PULSE
 	db WATER_PULSE
 	db HYDRO_PUMP
+	db FIRE_BLAST
+	db FOCUS_BLAST
+	db FLASH_CANNON
 	db -1

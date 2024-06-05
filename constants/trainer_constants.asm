@@ -509,9 +509,6 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass JUGGLER ; 37
 	const IRWIN1
-;	const IRWIN2
-;	const IRWIN3
-;	const IRWIN4
 	const FRITZ
 	const HORTON
 

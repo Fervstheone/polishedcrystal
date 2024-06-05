@@ -113,14 +113,14 @@ TreeMonSet_Apricorns:
 	db -1
 
 TreeMonSet_NoisyForest:
-	tree_mon 60, PINECO,                  LEVEL_FROM_BADGES - 3
-	tree_mon  5, FORRETRESS,              LEVEL_FROM_BADGES + 2
-	tree_mon 35, ELECTRODE, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
+	tree_mon 60, PINECO,                  LEVEL_FROM_BADGES - 13
+	tree_mon  5, FORRETRESS,              LEVEL_FROM_BADGES - 12
+	tree_mon 35, ELECTRODE, HISUIAN_FORM, LEVEL_FROM_BADGES - 8
 	db -1
 	; rare
-	tree_mon 60, ELECTRODE, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
-	tree_mon 30, PINECO,                  LEVEL_FROM_BADGES - 2
-	tree_mon 10, FORRETRESS,              LEVEL_FROM_BADGES + 3
+	tree_mon 60, ELECTRODE, HISUIAN_FORM, LEVEL_FROM_BADGES - 20
+	tree_mon 30, PINECO,                  LEVEL_FROM_BADGES - 12
+	tree_mon 10, FORRETRESS,              LEVEL_FROM_BADGES - 8
 	db -1
 
 TreeMonSet_Rock:

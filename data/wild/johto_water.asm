@@ -121,9 +121,9 @@
 
 	def_water_wildmons GOLDENROD_HARBOR
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, PSYDUCK
-	wildmon LEVEL_FROM_BADGES - 5, PSYDUCK
-	wildmon LEVEL_FROM_BADGES + 0, GOLDUCK
+	wildmon 20, PSYDUCK
+	wildmon 20, PSYDUCK
+	wildmon 25, GOLDUCK
 	end_water_wildmons
 
 	def_water_wildmons DRAGONS_DEN_B1F
@@ -226,9 +226,9 @@
 
 	def_water_wildmons CLIFF_EDGE_GATE
 	db 2 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 4, WOOPER
-	wildmon LEVEL_FROM_BADGES - 4, WOOPER
-	wildmon LEVEL_FROM_BADGES + 1, QUAGSIRE
+	wildmon 15, WOOPER
+	wildmon 15, WOOPER
+	wildmon 20, QUAGSIRE
 	end_water_wildmons
 
 	def_water_wildmons NEW_BARK_TOWN
@@ -282,9 +282,9 @@
 
 	def_water_wildmons ECRUTEAK_SHRINE_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, POLIWAG
-	wildmon LEVEL_FROM_BADGES - 5, PSYDUCK
-	wildmon LEVEL_FROM_BADGES + 0, POLIWHIRL
+	wildmon 10, POLIWAG
+	wildmon 15, PSYDUCK
+	wildmon 20, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons LAKE_OF_RAGE
@@ -310,93 +310,93 @@
 
 	def_water_wildmons CHERRYGROVE_BAY
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES - 5, TENTACOOL
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon 10, TENTACOOL
+	wildmon 25, TENTACOOL
+	wildmon 20, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32_COAST
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES - 5, TENTACOOL
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon 10, TENTACOOL
+	wildmon 15, TENTACOOL
+	wildmon 20, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_34_COAST
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES - 5, STARYU
-	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
+	wildmon 20, TENTACOOL
+	wildmon 25, STARYU
+	wildmon 30, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons STORMY_BEACH
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES - 5, STARYU
-	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
+	wildmon 15, TENTACOOL
+	wildmon 15, STARYU
+	wildmon 20, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35_COAST_SOUTH
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon 10, TENTACOOL
+	wildmon 25, TENTACRUEL
+	wildmon 20, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35_COAST_NORTH
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon 15, TENTACOOL
+	wildmon 25, TENTACRUEL
+	wildmon 20, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons YELLOW_FOREST
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 4, MARILL
-	wildmon LEVEL_FROM_BADGES - 4, PIKACHU
-	wildmon LEVEL_FROM_BADGES - 4, PSYDUCK
+	wildmon 8, MARILL
+	wildmon 8, PIKACHU
+	wildmon 8, PSYDUCK
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B1F
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, MAGIKARP
-	wildmon LEVEL_FROM_BADGES - 5, MAGIKARP
-	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
+	wildmon 5, MAGIKARP
+	wildmon 15, MAGIKARP
+	wildmon 10, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B2F
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, MAGIKARP
-	wildmon LEVEL_FROM_BADGES - 5, MAGIKARP
-	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
+	wildmon 5, MAGIKARP
+	wildmon 5, MAGIKARP
+	wildmon 15, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B3F
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, MAGIKARP
-	wildmon LEVEL_FROM_BADGES - 5, MAGIKARP
-	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
+	wildmon 5, MAGIKARP
+	wildmon 20, MAGIKARP
+	wildmon 15 CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons MURKY_SWAMP
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, WOOPER
-	wildmon LEVEL_FROM_BADGES + 0, QUAGSIRE
-	wildmon LEVEL_FROM_BADGES + 5, QUAGSIRE
+	wildmon 15, WOOPER
+	wildmon 20, QUAGSIRE
+	wildmon 25, QUAGSIRE
 	end_water_wildmons
 
 	def_water_wildmons MAGNET_TUNNEL_INSIDE
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, WOOPER
-	wildmon LEVEL_FROM_BADGES + 0, QUAGSIRE
-	wildmon LEVEL_FROM_BADGES + 5, QUAGSIRE
+	wildmon 15, WOOPER
+	wildmon 20, QUAGSIRE
+	wildmon 25, QUAGSIRE
 	end_water_wildmons
 
 	def_water_wildmons RUGGED_ROAD_SOUTH
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, GOLDEEN
-	wildmon LEVEL_FROM_BADGES + 0, SEAKING
-	wildmon LEVEL_FROM_BADGES + 5, QWILFISH, HISUIAN_FORM
+	wildmon 15, GOLDEEN
+	wildmon 20, SEAKING
+	wildmon 15, QWILFISH, HISUIAN_FORM
 	end_water_wildmons
 
 	db -1 ; end

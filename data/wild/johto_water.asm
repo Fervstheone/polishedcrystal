@@ -375,7 +375,7 @@
 	db 6 percent ; encounter rate
 	wildmon 5, MAGIKARP
 	wildmon 20, MAGIKARP
-	wildmon 15 CHINCHOU
+	wildmon 15, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons MURKY_SWAMP

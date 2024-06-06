@@ -283,7 +283,7 @@ BeedrillEvosAttacks:
 	db 35, POISON_JAB
 	db 38, AGILITY
 	db 41, SWORDS_DANCE ; Endeavor → TM move
-	db 44, OUTRAGE ; Fell Stinger → LGPE move
+	db 44, BUG_BITE ; Fell Stinger → LGPE move
 	db -1 ; no more level-up moves
 
 PidgeyEvosAttacks:

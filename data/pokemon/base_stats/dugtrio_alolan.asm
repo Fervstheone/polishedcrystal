@@ -1,6 +1,10 @@
+if DEF(FAITHFUL)	
 	db  35, 100,  60, 110,  50,  70 ; 425 BST
 	;   hp  atk  def  spe  sat  sdf
-
+else
+	db  60, 100,  90, 110,  50,  80 ; 490 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 	db GROUND, STEEL ; type
 	db 50 ; catch rate
 	db 153 ; base exp

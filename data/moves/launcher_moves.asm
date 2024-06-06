@@ -7,4 +7,5 @@ LauncherMoves:
 	db FIRE_BLAST
 	db FOCUS_BLAST
 	db FLASH_CANNON
+	db ZAP_CANNON
 	db -1

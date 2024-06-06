@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db  75,  95,  95,  85,  95,  95 ; 540 BST
 	;   hp  atk  def  spe  sat  sdf
 else
-	db  85,  95,  95,  95,  95,  95 ; 560 BST
+	db  90, 100, 100, 100, 100, 100 ; 590 BST
 	;   hp  atk  def  spe  sat  sdf
 endc
 	db WATER, DRAGON ; type

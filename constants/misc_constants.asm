@@ -17,10 +17,10 @@ DEF SAVE_CHECK_VALUE_1_OLD EQU 99 ; check digit before save version 7
 DEF SAVE_VERSION EQU 8
 
 ; time of day boundaries
-DEF MORN_HOUR EQU  5 ; 5 AM - 9 AM (4 hours)
-DEF DAY_HOUR  EQU  9 ; 9 AM - 5 PM (8 hours)
-DEF EVE_HOUR  EQU 17 ; 5 PM - 9 PM (4 hours)
-DEF NITE_HOUR EQU 21 ; 9 PM - 5 AM (8 hours)
+DEF MORN_HOUR EQU  5 ; 5  AM - 11 AM (6 hours)
+DEF DAY_HOUR  EQU 11 ; 11 AM - 5  PM (6 hours)
+DEF EVE_HOUR  EQU 17 ; 5  PM - 8  PM (3 hours)
+DEF NITE_HOUR EQU 20 ; 8  PM - 5  AM (9 hours)
 DEF MAX_HOUR  EQU 24 ; 12 AM - 12 AM (24 hours)
 
 if DEF(NO_RTC)

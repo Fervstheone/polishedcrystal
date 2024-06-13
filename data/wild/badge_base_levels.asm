@@ -3,8 +3,8 @@
 
 BadgeBaseLevels:
 	db 4  ;  0 badges
-	db 13  ;  1 badge (falkner)
-	db 18 ;  2 badges (bugsy)
+	db 14  ;  1 badge (falkner)
+	db 19 ;  2 badges (bugsy)
 	db 24 ;  3 badges (whitney)
 	db 28 ;  4 badges (morty)
 	db 33 ;  5 badges (chuck)

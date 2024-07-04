@@ -4,8 +4,8 @@ TreeItemEncounter:
 	call _CheckKeyItem
 	jr nc, .no_wing
 
-	; 10% chance for a wing
-	ld a, NUM_WINGS * 10
+	; 25% chance for a wing
+	ld a, NUM_WINGS * 25
 	call RandomRange
 	cp NUM_WINGS
 	jr nc, .no_wing
@@ -22,8 +22,8 @@ TreeItemEncounter:
 	call .CheckWingCap ; also increments hl
 	jr z, .pop_af_no_wing
 
-	; We're not yet capped. Give 1-10 wings of this type.
-	ld a, 10
+	; We're not yet capped. Give 1-30 wings of this type.
+	ld a, 30
 	call RandomRange
 	inc a
 	ld [wCurWingQuantity], a
